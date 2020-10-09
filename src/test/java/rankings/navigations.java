@@ -56,6 +56,8 @@ public class navigations {
 		driver.findElement(By.id("edit-pass--2")).sendKeys("test123");
 		driver.findElement(By.id("edit-field-erg-1-und-0")).click();
 		driver.findElement(By.id("edit-submit--2")).click();
+		
+		
 		Thread.sleep(10000);
 
 		js.executeScript("window.scrollBy(0,-200)");
